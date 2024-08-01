@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Naruto";
+    src: url(../fontes/njnaruto.ttf) format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px rgba(65, 65, 65, 0.253);
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Naruto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu a:hover {
+    background-color: rgba(79, 2, 131, 0.471);
+    color: rgb(142, 4, 192);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.apresentacao {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    max-width: 802px;
+    min-width: 320px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(40, 3, 91, 0.753), rgba(80, 2, 131, 0.753), rgba(120, 5, 177, 0.753), rgba(142, 4, 192, 0.753));
+}
+
+.apresentacao h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: -20px -20px 10px -20px;
+    padding: 15px;
+    text-decoration: underline;
+    font-family: 'Naruto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.apresentacao p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.apresentacao em {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.698);
+}
+
+.introducao-membros {
+    font-family: 'Naruto', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(40, 3, 91), rgb(79, 2, 131), rgb(120, 5, 177), rgb(142, 4, 192));
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 3em;
+    margin: auto;
+    padding: 40px 30px 0px 30px;
+    height: 600px;
+}
+
+main .membros{
+    background-color: rgba(255, 255, 255, 0.577);
+    margin: auto;
+}
+
+.membros h2 {
+    color: rgba(255, 0, 0, 0.849);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Naruto', sans-serif;
+    text-shadow: 2px 2px 2px rgba(38, 32, 32, 0.726);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding: 30px;
+}
+
+.membros .imagem-integrantes{
+    max-width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.243);
+}
+
+
+.integrantes{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.integrantes p{
+    max-width: 40%;
+    text-align: justify;
+    line-height: 2em;
+    color: rgba(255, 0, 0, 0.751);
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.243);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.mangekyou{
+    width: 20px;
+}
+
+.sobreocla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://i.pinimg.com/564x/c1/ed/84/c1ed84597cce2ce89baa0cf708be4731.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.informacoescla {
+    background-color: rgba(240, 248, 255, 0.436);
+    width: 40vw;
+    height: 300px;
+    margin: 40px;
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 20px 20px;
+    line-height: 2;
+}
+
+.social{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(135deg, rgb(79, 0, 79), rgba(63, 12, 191, 0.381), rgb(153, 2, 158));
+}
+
+.social a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Naruto', sans-serif;
+}
+
+.social a:hover{
+    color: rgb(149, 0, 255);
+    text-decoration: underline;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+    padding: 10px;
+}
